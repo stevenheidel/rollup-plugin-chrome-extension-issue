@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^3.1.1",
+    "rollup": "^1.32.1",
+    "rollup-plugin-chrome-extension": "^2.2.1",
+    "typescript": "^3.7.4",
+    "webextension-polyfill-ts": "^0.12.0"
+  },
+  "dependencies": {}
+}
